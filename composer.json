@@ -1,0 +1,14 @@
+{
+    "require": {
+        "symfony/templating": "^6.4"
+    },
+    "scripts": {
+        "tw-dev": [
+            "Composer\\Config::disableProcessTimeout",
+            "tailwindcss -i assets/styles/style.css -o style.css --watch"
+        ],
+        "tw-min": [
+            "tailwindcss -i assets/styles/style.css -o style.css --minify"
+        ]
+    }
+}

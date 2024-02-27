@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.file-upload {
+    @apply block w-full text-sm text-gray-500;
+    @apply file:me-4 file:py-2 file:px-4 file:rounded-lg file:border-0 file:text-sm file:font-semibold file:bg-blue-600 file:text-white;
+    @apply hover:file:bg-blue-700 file:disabled:opacity-50 file:disabled:pointer-events-none;
+}
